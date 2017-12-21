@@ -1,0 +1,2 @@
+<app-game-control (gameStartEvent)="listenGameStart($event)"></app-game-control>
+<app-odd *ngFor="let oddComponent of oddComponentList" [componentContent]="oddComponent"></app-odd>
